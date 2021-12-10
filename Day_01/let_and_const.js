@@ -8,6 +8,9 @@ function main() {
     // Print the perimeter of the circle:
     let perimeter = 2 * PI * r;
     console.log(perimeter);
+
+
+
     try {
         // Attempt to redefine the value of constant variable PI
         PI = 0;

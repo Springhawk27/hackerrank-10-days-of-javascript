@@ -1,7 +1,6 @@
 function getLetter(s) {
     let letter;
     // Write your code here
-
     switch (true) {
         case ("aeiou".includes(s.charAt(0))):
             letter = "A";
@@ -15,7 +14,6 @@ function getLetter(s) {
         case ("npqrstvwxyz".includes(s.charAt(0))):
             letter = "D";
             break;
-
     }
     return letter;
 }
